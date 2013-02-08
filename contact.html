@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Portfolio of Brandon J. Lyons">
+	<link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#brain_logo').hide();
+			$('#navbar li').hover(function(){
+				$(this).stop().animate({
+				"margin-left": '0px'
+			});
+		},
+		function(){
+			$(this).stop().animate({
+				"margin-left": '-120px'
+			});
+			});
+			$('#brain_logo').fadeIn(4000);
+		})
+	</script>
+	<title>Brandon Lyons-Web Designer</title>
+</head>
+<body>
+	<ul id="navbar">
+		<li><a href="#about_page">About</a></li>
+		<li><a href="#design_page">Designs</a></li>
+		<li><a href="#conatact_page">Contact</a></li>
+	</ul>
+	<div id="brain_logo">
+		Welcome to the mind of Brandon Lyons
+	</div>
+
+
+
+
+
+</body>
+</html>

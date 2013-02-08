@@ -1,0 +1,47 @@
+body{
+	background: #c4c4c4;
+	margin:0px;
+	padding:0px;
+}
+#navbar {
+ 	position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 10px;
+    left: 0px;
+    list-style: none;
+    z-index:9999;	
+}
+#navbar li {
+	width: 200px;
+	margin-left: -120px;
+}
+
+#navbar li a {
+	display: block;
+    width: 100px;
+    height: 20px;
+    padding:10px 0px 10px 50px;
+    margin-left:-10px;
+	background:#c4c4c4;
+	color:white;
+	font-family:Arial;
+	font-style:bold;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border: 1px solid #aae1f6;
+}
+#brain_logo{
+	background-image: url("images/BrainLogo.gif");
+	float: left;
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
